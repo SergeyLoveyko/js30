@@ -7,3 +7,9 @@
 --> [link to website][1]
 
 [1]: https://javascript30.com/
+
+________
+
+Day 1 --> project Drum Kit
+
+Deploy: https://sergeyloveyko.github.io/js30/drum-kit/
