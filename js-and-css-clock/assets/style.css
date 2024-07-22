@@ -23,10 +23,10 @@ body {
   border: 10px solid white;
   border-radius: 50%;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0,0,0,0.1),
+  /* box-shadow: 0 0 0 4px rgba(0,0,0,0.1),
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px black,
-    0 0 10px rgba(0,0,0,0.2);
+    0 0 10px rgba(0,0,0,0.2); */
 }
 
 .clock-face {
@@ -41,5 +41,11 @@ body {
   top: 50%;
   width: 50%;
   height: 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   background: black;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all .05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
