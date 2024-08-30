@@ -1,21 +1,48 @@
 
-    /*
-      misc styles, nothing to do with CSS variables
-    */
+  /*
+    misc styles, nothing to do with CSS variables
+  */
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
 
-    body {
-      text-align: center;
-      background: #193549;
-      color: white;
-      font-family: 'helvetica neue', sans-serif;
-      font-weight: 100;
-      font-size: 50px;
-    }
+  :root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 4px;
+  }
 
-    .controls {
-      margin-bottom: 50px;
-    }
+  body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
 
-    input {
-      width: 100px;
-    }
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+  img {
+    max-width: 100%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+
+  .h1 {
+    color: var(--base);
+  }
+
+  .box-image {
+    margin: 0 auto;
+    max-width: 900px;
+  }
