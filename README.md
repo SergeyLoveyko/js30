@@ -13,3 +13,15 @@ ________
 Day 1 --> project Drum Kit
 
 Deploy: https://sergeyloveyko.github.io/js30/drum-kit/
+
+*****
+
+Day 2 --> project CSS + JS Clock
+
+Deploy: https://sergeyloveyko.github.io/js30/js-and-css-clock/
+
+*****
+
+Day 3 --> project CSS Variables
+
+Deploy: https://sergeyloveyko.github.io/js30/css-variables/
